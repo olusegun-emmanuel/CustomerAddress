@@ -1,16 +1,9 @@
 package com.customeraddress.controller;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import com.customeraddress.beans.CustomerAddrList;
 import com.customeraddress.beans.Customeraddr;
 import com.customeraddress.repository.CustomerAddressRepository;
@@ -25,7 +18,7 @@ public class CustomerAddressController {
 	List<Customeraddr> addrlist;
 	CustomerAddrList customerAddrList;
 	
-	@RequestMapping("/address")
+	@GetMapping("/address")
 	//This method gets the customer address from back end
 	public CustomerAddrList getCustomerAddress(){
 		addrlist = customerAddressRepository.findAll();

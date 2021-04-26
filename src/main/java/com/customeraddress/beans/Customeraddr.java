@@ -54,5 +54,14 @@ public class Customeraddr {
 		this.address = address;
 		this.email = email;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "Customeraddr{" +
+				"addrid=" + addrid +
+				", id='" + id + '\'' +
+				", address='" + address + '\'' +
+				", email='" + email + '\'' +
+				'}';
+	}
 }

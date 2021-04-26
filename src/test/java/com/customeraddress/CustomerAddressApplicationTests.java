@@ -1,13 +1,12 @@
-package com.pathology.info;
+package com.customeraddress;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PathologyApplicationTests {
+class CustomerAddressApplicationTests {
 
 	@Test
-	void contextLoads() {
-	}
+	void contextLoads() { }
 
 }

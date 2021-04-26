@@ -12,4 +12,11 @@ public class CustomerAddrList {
 	public void setCustomeraddr(List<Customeraddr> customeraddr) {
 		this.customeraddr = customeraddr;
 	}
+
+	@Override
+	public String toString() {
+		return "CustomerAddrList{" +
+				"customeraddr=" + customeraddr.toString() +
+				'}';
+	}
 }
