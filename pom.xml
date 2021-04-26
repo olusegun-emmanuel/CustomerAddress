@@ -8,10 +8,10 @@
 		<version>2.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.poc</groupId>
-	<artifactId>SpringMicroservices</artifactId>
+	<groupId>com.customeraddress</groupId>
+	<artifactId>CustomerAddress</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringMicroservices</name>
+	<name>CustomerAddress</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
